@@ -33,13 +33,14 @@ while cont:
                 question_input = float(question_input)
                 var_cont = confirmation_test(0, question_input, formulas)
             except ValueError:
-                print("please enter either a number or 'q'")
+                print("geef een nummer of 'q' op")
 
     ## user heeft een nummer gekozen
     else:
         ## zet alle variabelen van vorige run op 0
         variables = [0,0,0,0,0]
         i = 0
+        error_message = "geef een nummer op"
 
         ## wat wil user berekenen van input(question_input)
         ## voor alle mogelijkheden in [opties], print vraag
@@ -56,7 +57,7 @@ while cont:
                 spec_input = float(input("\n"))
                 var_cont = confirmation_test(1, spec_input, opties[question_input])
             except ValueError:
-                print('enter a number')
+                print(error_message)
         
 
         ## vragen om bevestiging van opties
@@ -91,7 +92,7 @@ while cont:
                     i = i + 1
                     var_cont = False
                 except ValueError:
-                    print("invalid. please enter a number\n")
+                    print(f"{error_message}\n")
                 
 
         ## gebruik formule van testmathlibraries.py en rond antwoord af
