@@ -12,6 +12,7 @@ Python
 
 # Gebruikte files
 
+ * Testmath.py: main file
  * Testmathaddons.py : dit is een document met alle formules die het hoofdprogramma gebruikt. 
  * Testmathlibraries.py : dit is een document met ale woordenboeken en mogelijke figuren en opties
 
