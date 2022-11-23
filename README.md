@@ -8,6 +8,7 @@ Python
 
  * het maken en gebruiken van libraries en formules
  * ervaring opgedaan met in oplossingen denken
+ * het gebruiken van comments
  * het maken van een README.md
 
 # Gebruikte files
