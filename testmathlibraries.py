@@ -2,20 +2,20 @@ from testmathaddon import *
 
     ## het linken van de formules en de cijfers
 formulas = {
-    1: ['rechthoek', rechthoek, 'C:\\Images\\rechthoek.png'],
-    2: ['cirkel', cirkel, 'C:\\Images\\cirkel.png'],
-    3: ['driehoek', driehoek, 'C:\\Images\\driehoek.png'],
-    4: ['rechthoekige driehoek', rechthoekige_driehoek, 'C:\\Images\\rechthoekige_driehoek.png'],
-    5: ['vlieger', vlieger, 'C:\\Images\\vlieger2.png'],
-    6: ['kubus', kubus, 'C:\\Images\\kubus.jpg'],
-    7: ['cilinder', cilinder, 'C:\\Images\\cilinder.jpeg'],
-    8: ['piramide', pyramide, 'C:\\Images\\piramide.jpg'],
-    9: ['parallelogram', parallelogram, 'C:\\Images\\parallelogram.png'],
-    10: ['trapezium', trapezium, 'C:\\Images\\trapezium.png'],
-    11: ['driehoekige prisma', driehoekige_prisma, 'C:\\Images\\driehoekige_prisma.png'],
-    12: ['kegel', kegel, 'C:\\Images\\kegel.png'],
-    13: ['bol', bol, 'C:\\Images\\bol.png'],
-    14: ['ellips', ellips, 'C:\\Images\\ellips.png']
+    1: ['rechthoek', rechthoek, 'rechthoek.png'],
+    2: ['cirkel', cirkel, 'cirkel.png'],
+    3: ['driehoek', driehoek, 'driehoek.png'],
+    4: ['rechthoekige driehoek', rechthoekige_driehoek, 'rechthoekige_driehoek.png'],
+    5: ['vlieger', vlieger, 'vlieger2.png'],
+    6: ['kubus', kubus, 'kubus.jpg'],
+    7: ['cilinder', cilinder, 'cilinder.jpeg'],
+    8: ['piramide', pyramide, 'piramide.jpg'],
+    9: ['parallelogram', parallelogram, 'parallelogram.png'],
+    10: ['trapezium', trapezium, 'trapezium.png'],
+    11: ['driehoekige prisma', driehoekige_prisma, 'driehoekige_prisma.png'],
+    12: ['kegel', kegel, 'kegel.png'],
+    13: ['bol', bol, 'bol.png'],
+    14: ['ellips', ellips, 'ellips.png']
 }
 
     ## benodigde variabelen voor de formules
