@@ -19,6 +19,8 @@ while cont:
     for figuren in formulas:
         print(f'{figuren} : {str(formulas[figuren][0])}')
 
+
+    ## checken of de keuze een 'q' is en zo niet, of het wel een valide nummer is
     var_cont = True
     while var_cont:
         question_input = input("\nwelk figuur wil je iets voor uitrekenen ('q om te stoppen') ")
@@ -46,7 +48,8 @@ while cont:
             d = i
             i = i+1
             print(f"{i} : {opties[question_input][d]}")
-        
+
+        ## vraag om de input en check of het een valide nummer is
         var_cont = True
         while var_cont:
             try: 
@@ -80,6 +83,7 @@ while cont:
             var_cont = True
             if var == "hoogte (h)":
                 i = 4
+            ## vragen om elke variabele die nodig is en kijk of het een nummer is
             while var_cont:
                 try:
                     var_input = float(input(f'wat is de {figures[question_input][spec_input][d]} : '))
