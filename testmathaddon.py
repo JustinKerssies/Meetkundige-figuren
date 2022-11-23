@@ -24,7 +24,7 @@ def cirkel(spec, diameter, null1, null2, null3, null4):
 
     ## 3
 def driehoek(spec, basis, hoogte, null1, null2, null3):
-    ## oppervlakte driehoek                                                                            iets raar aan de hand<<<<<
+    ## oppervlakte driehoek                                                                           
     antwoord = (basis * hoogte) / 2
     return antwoord
 
@@ -120,7 +120,33 @@ def bol(spec, radius, null1, null2, null3, null4):
 
     ## 14
 def ellips(spec, lengteAC, lengteBD, null1, null2, null3):
-    
+
     antwoord = lengteAC * lengteBD * math.pi
     return antwoord
+
+    ## kijk of de input die gegeven is, een valide input is die ook in de libraries staan
+def confirmation_test(alpha, input, testlib):
+    library = ['']
+    i = 0 
+    ## check of de input een nummer moet zijn of niet (alpha = 1 betekent het moet een nummer zijn)
+    if alpha == 1:
+        for var in testlib:
+            i = i + 1
+            library.append(i)
+    else:
+        library = testlib
+
+    ## vergelijk alles in de library met de input en als er ook maar 1 overeen komt, return False
+    delta = 0
+    for var in library:
+        if input == var:
+            delta = 1
+    if delta == 1:
+        return False
+    else:
+        print("invalid answer")
+        return True
+
+
+
 
