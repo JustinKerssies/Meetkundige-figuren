@@ -23,7 +23,7 @@ Hierna een bevestiging of je inderdaad dit figuur en deze optie wil gebruiken. I
 Zo ja, laat een plaatje van het figuur zien met aanwijzingen om duidelijk te maken welke variabelen de user moet aangeven (zie bijlage voor voorbeeld).
 Tegelijk hiermee moet het programma gaan vragen naar de variabelen. Hier test het programma ook of je ook een nummer hebt ingevuld.
 Als je toch letters hebt ingevuld, vraag om een ander antwoord. 
-Wanneer alle variabelen gevraagd zijn, vul alles in een formule die overeenkomt met de inputs die je gegeven hebt, zoals 'de oppervlakte van een cirkel'.
+Wanneer alle variabelen gevraagd zijn, vul alles in een formule die overeenkomt met de inputs die je gegeven hebt, zoals 'de inhoud van een cilinder'.
 Aan het einde moet het programma het antwoord geven en weer terug gaan naar het begin voor het volgende figuur.
 
 ## Bijlage
