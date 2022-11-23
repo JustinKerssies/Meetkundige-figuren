@@ -60,17 +60,6 @@ while cont:
                 var_cont = confirmation_test(1, spec_input, opties[question_input])
             except ValueError:
                 print(error_message)
-        
-
-        ## vragen om bevestiging van opties
-        var_cont = True
-        confirm_input = int(spec_input - 1)
-        message = f"\nwil je de {opties[question_input][confirm_input]} van een {formulas[question_input][0]} berekenen? (y/n) : "
-        while var_cont:
-            confirmation = input(message)
-            var_cont = confirmation_test(0, confirmation, opties['default'])
-        if confirmation == 'n' or confirmation == 'N':
-            continue
 
         ## reset i voor toekomstig gebruik
         ## laat image zien. link staat in [formulas] op plaats 3
@@ -104,8 +93,6 @@ while cont:
 
         ## einde
         print(f"\nhet antwoord is {str(answer)}\n")
-
-
 
 
 
