@@ -59,6 +59,7 @@ opties = {
     11: ["oppervlakte", "inhoud"],
     12: ["oppervlakte", "inhoud"],
     13: ["oppervlakte", "inhoud"],
-    14: ["oppervlakte"]
+    14: ["oppervlakte"],
+    'default': ['y', 'n', 'Y', 'N']
 
 }
