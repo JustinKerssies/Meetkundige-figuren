@@ -10,7 +10,9 @@
 from testmathaddon import *
 from testmathlibraries import *
 from PIL import Image
+import os 
 
+ROOT_DIR = os.path.realpath(os.path.join(os.path.dirname(__file__)))
 cont = True
 while cont:
     ## geef de nummers en de bijbehoorende figuren en vraag voor input
@@ -73,7 +75,7 @@ while cont:
         ## reset i voor toekomstig gebruik
         ## laat image zien. link staat in [formulas] op plaats 3
         i = 0
-        im = Image.open(formulas[question_input][2])
+        im = Image.open(os.path.join(ROOT_DIR,'images',formulas[question_input][2]))
         im.show()
         print('\n')
 
@@ -102,6 +104,11 @@ while cont:
 
         ## einde
         print(f"\nhet antwoord is {str(answer)}\n")
+
+
+
+
+
 
 
 
